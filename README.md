@@ -9,10 +9,7 @@ Welcome to my Data Structures and Algorithms Repository. This repository is a co
 - [Installation](#installation)
 - [Usage](#usage)
 - [Data Structures](#data-structures)
-- [Algorithms](#algorithms)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+  
 
 ## Installation
 
