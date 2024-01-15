@@ -35,9 +35,12 @@ you can import each data structure in any class and create an instance of this c
 
 # Example usage if using class in the same package
 
+
+```
 public class example {
 
 public static boolean validate(String s) {
+
         ArrayStack stack = new ArrayStack (s.length());
         
         for (int i = 0; i < s.length(); i++) {
@@ -61,14 +64,18 @@ public static boolean validate(String s) {
             }
         }
         
+        
         return stack.isEmpty();
     }
     
     public static void main(String[] args) {
         String s = "{}[]{";
         System.out.println(validate(s));
+            }
+        }
     }
-}
+```
+
 
 #if you want to use the class but in another package simply 
 import packageName.Arraystack
